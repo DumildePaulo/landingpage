@@ -1,0 +1,84 @@
+@charset "UTF-8";
+ 
+@font-face {
+    font-family: "aranha";
+    src: url(fontes/the_amazing_spider_man/The\ Amazing\ Spider-Man.ttf);
+}
+@font-face {
+    font-family: "Aranha2";
+    src: url(fontes/avengeance-font/AvengeanceHeroicAvengerBoldItalic-R73A.ttf);
+}
+body{
+   background-image: linear-gradient(to right,#2B3784,#2B3784);
+   max-width: 1200px;
+}
+ul{
+    margin-top: 0px;
+}
+nav {
+    display:flex ;
+    display: inline-block;
+    margin:20px;
+}
+nav >a{
+    font-family:"Aranha2", arial;
+    color: red;
+    font-weight: bold;   
+    text-decoration: none;
+    padding: 10px;
+}
+nav >a:hover{
+    background-color: red;
+    color: blue;
+    border-radius: 2px;
+    padding: 10px;
+    height: 15px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0%;
+}
+h1{
+    font-weight:900;
+    font-size: 50px;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.428);
+    font-family: "aranha",Arial, Helvetica, sans-serif;
+    color: red;
+    font-weight: bold;
+    
+}
+header p{
+    color: red;
+    font-size: 20px;
+    font-family: "Aranha",Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+main{
+    display: flex;
+    flex-direction:row ;
+}
+aside{
+    font-family: "aranha";
+    font-weight: bold;
+    color: red;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color:#2B3784 ;
+    color: red;
+}
+input{
+    width: 70%;
+    height: 30px;
+    margin: 10px;
+    background-color:darkcyan;
+    color:white ;
+    border-radius: 20px;
+ }
+ img{
+    margin-top: 50%;
+ }
